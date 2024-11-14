@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2024 Chunghan Yi <chunghan.yi@gmail.com>
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&i2c1 {
+    adxl345: adxl345@53 {
+        compatible = "adi,adxl345";
+        reg = <0x53>;
+        status = "okay";
+    };
+};

@@ -1,0 +1,11 @@
+sample:
+  name: ADXL345 Accelerometer data Monitor
+tests:
+  sample.sensor.adxl345:
+    harness: sensor
+    tags:
+      - samples
+      - sensor
+    depends_on:
+      - i2c
+      - adxl345
